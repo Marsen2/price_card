@@ -1,0 +1,76 @@
+@import 'variables';
+.price_tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  margin-left: 18px;
+  &__title {
+    line-height: $title_height;
+    font-size: $title_size;
+    font-weight: $title_weight;
+    margin: 33px 140px;
+    text-align: center;
+    color: $font_colors;
+  }
+
+  &__price {
+    height: 105px;
+    width: 380px;
+    background-color: #5bb189;
+    text-align: center;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    color: $font_colors;
+    margin-top: 30px;
+  }
+
+  &__description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: $font_colors;
+    margin: 40px 26px;
+  }
+
+  &__options-list {
+    height: 300px;
+    text-align: center;
+    list-style-type: none;
+    align-items: center;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: $font_colors;
+    width: 380px;
+    padding: 0px;
+
+    &__li {
+      margin-top: 16px;
+    }
+  }
+
+  &__order-btn {
+    background: #5bb189;
+    border-radius: 20px;
+    border: none;
+    width: 154px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    color: $font_colors;
+  }
+}
+li:nth-child(odd) {
+  background-color: #2a3438;
+  height: 50px;
+}
