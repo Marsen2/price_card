@@ -11,6 +11,21 @@
   background-color: #334247;
   margin-left: 18px;
 }
+.price-card__popular {
+  width: 75px;
+  height: 17px;
+  background-color: #dc3f45;
+  position: absolute;
+  right: 0px;
+  top: 24px;
+  transform: rotate(45deg);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+}
+.price-card__blue {
+  position: relative;
+}
 .price-card__title {
   line-height: 43px;
   font-size: 25px;
@@ -58,22 +73,19 @@
 }
 .price-card__options-list {
   line-height: 300px;
-  text-align: center;
   list-style-type: none;
   align-items: center;
   font-weight: 300;
   font-size: 15px;
-  line-height: 18px;
   color: #FFFFFF;
   width: 380px;
   padding: 0px;
   position: relative;
 }
 .price-card__options-list__li {
-  text-align: center;
-  align-items: center;
   line-height: 50px;
   position: relative;
+  padding-left: 50px;
 }
 .price-card__options-list__li__check {
   position: absolute;
@@ -82,6 +94,7 @@
   bottom: 19px;
   left: 22px;
   right: 343px;
+  padding: 18px 22px 19px 22px;
 }
 .price-card__options-list__li__green {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
