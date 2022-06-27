@@ -86,6 +86,28 @@ html {
   text-align: center;
   margin: 40px 26px 40px 26px;
 }
+.price-card__description__green {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.price-card__description__blue {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 40px 26px;
+}
+.price-card__description__orange {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
 .price-card__options-list {
   line-height: 300px;
   list-style-type: none;
