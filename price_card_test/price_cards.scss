@@ -1,0 +1,135 @@
+.price_tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.price-card{
+  height: 770px;
+  width: 380px;
+  background-color:#334247;
+  margin-left: 18px;
+ &__title{
+
+   font-size: 35px;
+   line-height: 43px;
+   text-align: center;
+   color: #FFFFFF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 33px 140px;
+
+ }
+  &__text{
+    font-weight: 700;
+  }
+  &__sub-text{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  &__price{
+    height: 105px;
+    width: 380px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 19px 110px;
+  }
+  &__price-green{
+    background-color: #5BB189;
+
+  }
+  &__price-blue{
+    background-color: #3A6BA5;
+  }
+  &__price-orange{
+    background-color: #EC632A;
+  }
+  &__description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 327px;
+    height: 36px;
+    margin: 40px 26px;
+  }
+    &__options-list{
+      text-align: center;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      color: #FFFFFF;
+      padding-left: 0;
+
+
+
+  }
+  &__li{
+    list-style-type: none;
+    width: 380px;
+    height: 50px;
+    padding-top: 16px;
+    position: relative;
+    //padding-right: 80px;
+  }
+  &__li-icons{
+    width: 15px;
+    height: 13px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 18px;
+    bottom: 19px;
+    left: 22px;
+    right: 343px;
+    padding-left: 22px;
+
+  }
+
+  &__button{
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 154px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    //display: flex;
+    //align-items: center;
+    //justify-content: center;
+
+
+  }
+  &__button-green{
+    background-color: #5BB189;
+  }
+  &__button-blue{
+    background-color: #3A6BA5;
+  }
+  &__button-orange{
+    background-color: #EC632A;
+  }
+
+
+}
+.price-card__li:nth-child(odd){
+  background-color:  #2A3438;;
+
+}
+.price-card-li-icons__greens{
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+.price-card-li-icons__blue{
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+}
+.price-card-li-icons__orange{
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+}
