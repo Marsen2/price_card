@@ -79,23 +79,22 @@
     height: 50px;
     //padding-top: 16px;
     line-height: 50px;
-    position: relative;
-    //padding-right: 80px;
+    //position: relative;
   }
   &__li-icons{
     width: 15px;
     height: 13px;
-    position: absolute;
+    //position: absolute;
     background-repeat: no-repeat;
     //top: 18px;
     //bottom: 19px;
     //left: 22px;
     //right: 343px;
     //padding-left: 22px;
-    //padding: 19px 22px 18px 22px;
+    margin: 19px 22px 18px 22px;
     //left: 5%;
     display: inline-block;
-    margin: 20px 20px;
+
 
 
   }
