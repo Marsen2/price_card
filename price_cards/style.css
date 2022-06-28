@@ -63,7 +63,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  padding: 19px 110px;
   font-size: 55px;
   font-weight: 700;
   line-height: 67px;
