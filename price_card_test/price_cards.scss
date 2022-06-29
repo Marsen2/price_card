@@ -10,10 +10,8 @@
 .price-card {
   height: 770px;
   width: 380px;
-  background-color: #334247;
-
+  background-color: $background-cards;
   position: relative;
-
   overflow: hidden;
   &__title {
     font-size: 35px;
@@ -45,13 +43,13 @@
     padding: 19px 110px;
   }
   &__price-green {
-    background-color: #5bb189;
+    background-color: $background-title-green;
   }
   &__price-blue {
-    background-color: #3a6ba5;
+    background-color: $background-title-blue;
   }
   &__price-orange {
-    background-color: #ec632a;
+    background-color: $background-title-orange;
   }
   &__description {
     font-weight: 300;
@@ -85,11 +83,8 @@
   &__li-icons {
     width: 15px;
     height: 13px;
-
     background-repeat: no-repeat;
-
     margin: 0 22px;
-
     display: inline-block;
   }
   &__button-position {
